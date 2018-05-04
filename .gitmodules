@@ -1,0 +1,6 @@
+[submodule "roles/awsnd-purger"]
+	path = roles/awsnd-purger
+	url = git@github.com:AlmostGosu/awsnd-purger.git
+[submodule "roles/awsnd-deployer"]
+	path = roles/awsnd-deployer
+	url = git@github.com:AlmostGosu/awsnd-deployer.git
