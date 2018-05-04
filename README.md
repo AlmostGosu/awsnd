@@ -11,3 +11,8 @@ Network and host profiles to be deployed are in the `awsnd-deployer\tasks\hosts`
 
 ## Cleaning up
 The cleanup only relies on a couple variables set in the `awsnd-purger\vars\vars.yml` file and will discover the rest of your `awsnd_guid` tagged infrastructure and destroy it systematically. 
+
+## References
+Roles published on galaxy:
+https://galaxy.ansible.com/AlmostGosu/awsnd-deployer/
+https://galaxy.ansible.com/AlmostGosu/awsnd-purger/
