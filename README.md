@@ -2,7 +2,7 @@
 I built these playbooks becuase I suck with Cloudformation templates and needed something to build and tear down AWS environments, dynamically update inventory files, and basically manage my AWS Ansible playground. 
 
 ## The Setup
-readthedocs: https://aws.amazon.com/blogs/apn/getting-started-with-ansible-and-dynamic-amazon-ec2-inventory-management/
+Configure your Ansible environment with boto - readthedocs: https://aws.amazon.com/blogs/apn/getting-started-with-ansible-and-dynamic-amazon-ec2-inventory-management/
 
 Variables are set within the context of each role, because the roles are maintained independtly on Galaxy.
 
