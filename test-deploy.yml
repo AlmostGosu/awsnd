@@ -3,11 +3,6 @@
     hosts: local
     connection: local
     tasks:
-    - name: Include only files matching vars.yml
-      include_vars:
-        dir: '.'
-        files_matching: 'vars.yml'
-
     - name: Making a copy of group_vars/splunk_common.yml, you know... because reasons.
       copy:
         src: "{{ inventory_file }}"
